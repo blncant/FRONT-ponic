@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import { motion } from "framer-motion";
 
 export const LoaderContainer = styled.div`
 	display: flex;
@@ -7,7 +8,7 @@ export const LoaderContainer = styled.div`
 	margin: 0 auto;
 `;
 
-export const LoaderStyled = styled.div`
+export const LoaderStyled = styled(motion.div)`
 	border: 2px dashed #d9d9d9;
 	width: 20px;
 	height: 20px;

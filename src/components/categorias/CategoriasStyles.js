@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
 export const DiscoverCategorias = styled.div`
 	display: flex;
@@ -9,7 +10,7 @@ export const DiscoverCategorias = styled.div`
 	margin-top: 40px;
 `;
 
-export const CardCategoria = styled.div`
+export const CardCategoria = styled(motion.div)`
 	flex: 1 1 10em;
 	align-items: center;
 

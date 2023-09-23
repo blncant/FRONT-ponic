@@ -1,37 +1,27 @@
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const ResumenContainerStyled = styled.div`
-	padding: 2rem 7rem;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 20px;
+	margin-top: 10rem;
 `;
 
 export const ResumenTitleStyled = styled.div`
 	display: flex;
-	justify-content: space-between;
+	gap: 20px;
 	align-items: center;
-`;
-
-export const StyledLink = styled(Link)`
-	padding: 0.8rem 1.5rem;
-	outline: none;
-	border: none;
-	background: var(--gray-bg);
-	text-transform: uppercase;
-	font-weight: 400;
-	cursor: pointer;
-
-	& span {
-		font-weight: 800;
-		font-size: 1rem;
-		color: white;
-	}
+	justify-content: center;
 `;
 
 export const ProductsContainerStyled = styled.div`
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
+
 	gap: 20px;
-	flex-wrap: wrap;
+	justify-content: center;
 `;
 
 export const HrStyled = styled.hr`

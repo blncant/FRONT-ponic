@@ -28,7 +28,7 @@ const Hero = ({ doScroll, productsRef })=> {
                     <Btn> Registrate </Btn>
                 </Link>
                 
-                <Btn secondary onClick={handleClick}>
+                <Btn secondary="true" onClick={handleClick}>
                     Ver más
                 </Btn>
             </HeroBtnsStyled>

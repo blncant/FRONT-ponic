@@ -1,6 +1,7 @@
 import styled, { css } from "styled-components";
+import { motion } from "framer-motion";
 
-export const StyledButton = styled.button`
+export const StyledButton = styled(motion.button)`
 	padding: 0.8rem 1.5rem;
 	outline: none;
 	border: none;

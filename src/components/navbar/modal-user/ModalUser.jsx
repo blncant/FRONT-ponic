@@ -1,4 +1,5 @@
 import React from 'react';
+import { AnimatePresence } from 'framer-motion';
 
 import {
   HrStyled,
@@ -15,7 +16,7 @@ const ModalUser = () => {
   const dispatch = useDispatch()
 
   return (
-    <>
+    <AnimatePresence>
       {!hiddenMenu && (
         <ModalContainerStyled
           initial={{ translateX: 600 }}
@@ -33,7 +34,7 @@ const ModalUser = () => {
           }}>Sign Out</span>
         </ModalContainerStyled>
       )}
-    </>
+    </AnimatePresence>
   );
 };
 

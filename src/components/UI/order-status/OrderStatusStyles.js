@@ -1,4 +1,4 @@
-import styled from "styled-components";
+/* import styled from "styled-components";
 
 export const StatusStyled = styled.span`
 	text-align: center;
@@ -22,3 +22,4 @@ export const PendingStyled = styled(StatusStyled)`
 export const CancelStyled = styled(StatusStyled)`
 	background: #ff005c;
 `;
+ */

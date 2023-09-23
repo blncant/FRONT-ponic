@@ -6,6 +6,7 @@ export const productsData = [
 		price: 5000,
 		cardImg: "../assets/img/pexels-alex-staudinger-4596578.jpg",
 		img: "../assets/img-cart/pexels-alex-staudinger-4596578.jpg",
+		desc: "abc",
 	},
 	{
 		id: 2,
@@ -14,6 +15,7 @@ export const productsData = [
 		price: 200,
 		cardImg: "../assets/img/pexels-alleksana-4113894.jpg",
 		img: "../assets/img-cart/pexels-alleksana-4113894.jpg",
+		desc: "abc",
 	},
 	{
 		id: 3,
@@ -22,6 +24,7 @@ export const productsData = [
 		price: 300,
 		cardImg: "../assets/img/pexels-amelia-cui-11985895.jpg",
 		img: "../assets/img-cart/pexels-amelia-cui-11985895.jpg",
+		desc: "abc",
 	},
 	{
 		id: 4,
@@ -30,6 +33,7 @@ export const productsData = [
 		price: 5000,
 		cardImg: "../assets/img/pexels-anna-nekrashevich-8989427.jpg",
 		img: "../assets/img-cart/pexels-anna-nekrashevich-8989427.jpg",
+		desc: "abc",
 	},
 	{
 		id: 5,
@@ -38,6 +42,7 @@ export const productsData = [
 		price: 6000,
 		cardImg: "../assets/img/pexels-dominika-roseclay-912413.jpg",
 		img: "../assets/img-cart/pexels-dominika-roseclay-912413.jpg",
+		desc: "abc",
 	},
 	{
 		id: 6,
@@ -46,6 +51,7 @@ export const productsData = [
 		price: 300,
 		cardImg: "../assets/img/pexels-eva-bronzini-5758605.jpg",
 		img: "../assets/img-cart/pexels-eva-bronzini-5758605.jpg",
+		desc: "abc",
 	},
 	{
 		id: 7,
@@ -54,6 +60,7 @@ export const productsData = [
 		price: 4000,
 		cardImg: "../assets/img/pexels-famingjia-inventor-11534883.jpg",
 		img: "../assets/img-cart/pexels-famingjia-inventor-11534883.jpg",
+		desc: "abc",
 	},
 	{
 		id: 8,
@@ -62,6 +69,7 @@ export const productsData = [
 		price: 2000,
 		cardImg: "../assets/img/pexels-felipe-alves-9297353.jpg",
 		img: "../assets/img-cart/pexels-felipe-alves-9297353.jpg",
+		desc: "abc",
 	},
 	{
 		id: 9,
@@ -70,6 +78,7 @@ export const productsData = [
 		price: 6000,
 		cardImg: "../assets/img/pexels-ithalu-dominguez-942649.jpg",
 		img: "../assets/img-cart/pexels-ithalu-dominguez-942649.jpg",
+		desc: "abc",
 	},
 	{
 		id: 10,
@@ -78,6 +87,7 @@ export const productsData = [
 		price: 100,
 		cardImg: "../assets/img/pexels-karolina-grabowska-5202090.jpg",
 		img: "../assets/img-cart/pexels-karolina-grabowska-5202090.jpg",
+		desc: "abc",
 	},
 	{
 		id: 11,
@@ -86,6 +96,7 @@ export const productsData = [
 		price: 100,
 		cardImg: "../assets/img/pexels-karolina-grabowska-5202102.jpg",
 		img: "../assets/img-cart/pexels-karolina-grabowska-5202102.jpg",
+		desc: "abc",
 	},
 	{
 		id: 12,
@@ -94,6 +105,7 @@ export const productsData = [
 		price: 2000,
 		cardImg: "../assets/img/pexels-karolina-grabowska-7185740.jpg",
 		img: "../assets/img-cart/pexels-karolina-grabowska-7185740.jpg",
+		desc: "abc",
 	},
 	{
 		id: 13,
@@ -102,6 +114,7 @@ export const productsData = [
 		price: 6000,
 		cardImg: "../assets/img/pexels-karolina-grabowska-7193658.jpg",
 		img: "../assets/img-cart/pexels-karolina-grabowska-7193658.jpg",
+		desc: "abc",
 	},
 	{
 		id: 14,
@@ -110,6 +123,7 @@ export const productsData = [
 		price: 1000,
 		cardImg: "../assets/img/pexels-kulbir-10758032.jpg",
 		img: "../assets/img-cart/pexels-kulbir-10758032.jpg",
+		desc: "abc",
 	},
 	{
 		id: 15,
@@ -118,6 +132,7 @@ export const productsData = [
 		price: 7000,
 		cardImg: "../assets/img/pexels-liz-romo-1999579.jpg",
 		img: "../assets/img-cart/pexels-liz-romo-1999579.jpg",
+		desc: "abc",
 	},
 	{
 		id: 16,
@@ -126,6 +141,7 @@ export const productsData = [
 		price: 100,
 		cardImg: "../assets/img/pexels-mali-maeder-244393.jpg",
 		img: "../assets/img-cart/pexels-mali-maeder-244393.jpg",
+		desc: "abc",
 	},
 	{
 		id: 17,
@@ -134,6 +150,7 @@ export const productsData = [
 		price: 1000,
 		cardImg: "../assets/img/pexels-nothing-ahead-6964288.jpg",
 		img: "../assets/img-cart/pexels-nothing-ahead-6964288.jpg",
+		desc: "abc",
 	},
 	{
 		id: 18,
@@ -142,6 +159,7 @@ export const productsData = [
 		price: 100,
 		cardImg: "../assets/img/pexels-oks-malkova-9031150.jpg",
 		img: "../assets/img-cart/pexels-oks-malkova-9031150.jpg",
+		desc: "abc",
 	},
 	{
 		id: 19,
@@ -150,6 +168,7 @@ export const productsData = [
 		price: 200,
 		cardImg: "../assets/img/pexels-oks-malkova-9031151.jpg",
 		img: "../assets/img-cart/pexels-oks-malkova-9031151.jpg",
+		desc: "abc",
 	},
 	{
 		id: 20,
@@ -158,6 +177,7 @@ export const productsData = [
 		price: 3000,
 		cardImg: "../assets/img/pexels-sasha-kim-9414333.jpg",
 		img: "../assets/img-cart/pexels-sasha-kim-9414333.jpg",
+		desc: "abc",
 	},
 	{
 		id: 21,
@@ -166,6 +186,7 @@ export const productsData = [
 		price: 100,
 		cardImg: "../assets/img/pexels-shrutika-gupta-6330446.jpg",
 		img: "../assets/img-cart/pexels-shrutika-gupta-6330446.jpg",
+		desc: "abc",
 	},
 	{
 		id: 22,
@@ -174,6 +195,7 @@ export const productsData = [
 		price: 800,
 		cardImg: "../assets/img/pexels-studio-naae-13868673.jpg",
 		img: "../assets/img-cart/pexels-studio-naae-13868673.jpg",
+		desc: "abc",
 	},
 	{
 		id: 23,
@@ -182,6 +204,7 @@ export const productsData = [
 		price: 3000,
 		cardImg: "../assets/img/pexels-temmuz-uzun-12507496.jpg",
 		img: "../assets/img-cart/pexels-temmuz-uzun-12507496.jpg",
+		desc: "abc",
 	},
 	{
 		id: 24,
@@ -190,6 +213,7 @@ export const productsData = [
 		price: 2000,
 		cardImg: "../assets/img/pexels-tijana-drndarski-5474396.jpg",
 		img: "../assets/img-cart/pexels-tijana-drndarski-5474396.jpg",
+		desc: "abc",
 	},
 	{
 		id: 25,
@@ -198,6 +222,7 @@ export const productsData = [
 		price: 2000,
 		cardImg: "../assets/img/pexels-tom-swinnen-1309769.jpg",
 		img: "../assets/img-cart/pexels-tom-swinnen-1309769.jpg",
+		desc: "abc",
 	},
 ];
 

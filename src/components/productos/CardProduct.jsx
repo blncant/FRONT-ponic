@@ -8,7 +8,7 @@ import { formatPrice } from '../../utils/formatPrice'
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../../redux/cart/cartSlice';
 
-const CardProduct = ({title, category, price, cardImg, id, img }) => {
+const CardProduct = ({title, category, price, cardImg, id, img, desc }) => {
     const dispatch = useDispatch()
     
     return (
@@ -16,7 +16,7 @@ const CardProduct = ({title, category, price, cardImg, id, img }) => {
             <CardTop>
             <button
                 onClick={() => 
-                dispatch(addToCart({ cardImg, img, title, price, id }))
+                dispatch(addToCart({ cardImg, img, title, price, id, desc }))
                 }
             >
                 <FaShoppingBag/>
@@ -27,9 +27,11 @@ const CardProduct = ({title, category, price, cardImg, id, img }) => {
             <p>{formatPrice(price)}</p>
             <h4>{category}</h4>
             <h3>{title}</h3>
+            
             </CardContent>
         </ProductCard>
     )
 }
 
 export default CardProduct
+

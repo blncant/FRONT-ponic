@@ -1,8 +1,8 @@
 import styled from "styled-components";
-
+import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
-export const ModalContainerStyled = styled.div`
+export const ModalContainerStyled = styled(motion.div)`
 	position: absolute;
 	background-color: var(--clr--card-text);
 	color: white;

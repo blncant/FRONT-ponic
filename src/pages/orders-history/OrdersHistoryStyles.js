@@ -5,7 +5,7 @@ export const MisOrdenesContainerStyled = styled.div`
 	min-height: calc(100vh - 500px);
 	margin: 0 auto;
 	padding: 2rem 0;
-	margin-top: 200px;
+	margin-top: 100px;
 	color: white;
 `;
 

@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
-export const ContainerLinkStyled = styled.div``;
+export const ContainerLinkStyled = styled(motion.div)``;
 
 export const StyledLink = styled(Link)`
 	padding: 0.8rem 1.5rem;

@@ -10,7 +10,7 @@ const Btn = ({ children, secondary, disabled = false, onClick }) => {
     };
   
     return (
-      <StyledButton disabled={disabled} onClick={handleClick} secondary={secondary}>
+      <StyledButton disabled={disabled} onClick={handleClick} secondary={secondary} whileTap={{ scale: 0.95 }}>
         {children}
       </StyledButton>
     );

@@ -1,4 +1,4 @@
-import React from 'react';
+/* import React from 'react';
 
 import { BiTime } from 'react-icons/bi';
 import { MdOutlineCancel } from 'react-icons/md';
@@ -28,4 +28,4 @@ const OrderStatus = ({ status }) => {
   );
 };
 
-export default OrderStatus;
+export default OrderStatus; */

@@ -31,7 +31,16 @@ const OrderDetail= () => {
       getOrders(dispatch, currentUser)
     }
     setVisitedOrder(orders?.find(order => order._id === orderId))
-  }, [orderId, currentUser?.id, orders, dispatch])
+  }, [orderId, currentUser?.id, orders, dispatch]);
+
+/*   useEffect(() => {
+    if (!orders) {
+      getOrders(dispatch, currentUser);
+    }
+    const foundOrder = orders?.find(order => order._id === orderId);
+    console.log('Orden encontrada:', foundOrder);
+    setVisitedOrder(foundOrder);
+  }, [orderId, currentUser?.id, orders, dispatch]); */
 
   return (
     <ResumenContainerStyled>

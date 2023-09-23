@@ -3,9 +3,9 @@ import { ContainerLinkStyled, StyledLink } from './LinkStyled';
 
 const Link = ({ to = '/' }) => {
   return (
-    <ContainerLinkStyled>
+    <ContainerLinkStyled whileTap={{ scale: 0.95 }}>
       <StyledLink to={to}>
-        <span> Ir al Home </span>
+        <span> Volver </span>
 
       </StyledLink>
     </ContainerLinkStyled>

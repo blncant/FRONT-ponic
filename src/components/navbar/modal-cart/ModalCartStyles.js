@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
-export const ContainerStyled = styled.div`
+export const ContainerStyled = styled(motion.div)`
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -31,19 +32,20 @@ export const ContainerStyled = styled.div`
 `;
 
 export const CloseButtonContainerStyled = styled.div`
-	height: 32px;
+	height: 40px;
+	background-color: none;
 `;
 
-export const CloseButtonStyled = styled.div`
+export const CloseButtonStyled = styled(motion.button)`
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 2rem;
-	height: 2rem;
-	outline: none;
-	border: none;
-	border-radius: 10px;
 
+	width: 1.5rem;
+	height: 1rem;
+	border-radius: 5px;
+
+	border: none;
 	color: var(--color-orange);
 	cursor: pointer;
 `;

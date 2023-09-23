@@ -3,22 +3,20 @@ import styled from "styled-components";
 export const OrdersContainerStyled = styled.div`
 	padding: 1rem;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	flex-wrap: wrap;
-	gap: 20px;
+	gap: 40px;
 	max-width: 1500px;
-	margin: 0 auto;
-	margin-top: 200px;
+	margin-top: 60px;
 	color: white;
 `;
 
 export const PedidoContainerStyled = styled.div`
 	width: 380px;
 
-	padding: 1rem 1.4rem;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
 	position: relative;
 	cursor: pointer;
 `;

@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import { motion } from "framer-motion";
 
 //HEADER
 export const NavbarContainerStyled = styled.header`
@@ -123,7 +124,7 @@ export const LinkContainerStyled = styled.div`
 `;
 
 // OVERLAY
-export const ModalOverlayStyled = styled.div`
+export const ModalOverlayStyled = styled(motion.div)`
 	position: fixed;
 	top: 0;
 	left: 0;

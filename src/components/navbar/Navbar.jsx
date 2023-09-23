@@ -1,6 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom'
 import { animateScroll as scroll } from 'react-scroll';
 
+
 import { useDispatch, useSelector } from 'react-redux';
 import { toggleHiddenMenu } from '../../redux/user/userSlice';
 
@@ -48,14 +49,18 @@ function Navbar() {
 
         <LinksContainerStyled>
             {/* Home */}
+           
             <MenuNavStyled>
+            
                 <Link to="/" onClick={scrollToTop}>
                     <LinkContainerStyled>
                         <span>Home</span>
                     </LinkContainerStyled> 
                     
                 </Link>
+                
             </MenuNavStyled>
+            
 
             {/* Cart */}
             <CartNavStyled>
@@ -74,7 +79,7 @@ function Navbar() {
                     <FaUserCircle/>
                 </LinkContainerStyled>
             </UserNavStyled>
-        
+         
         </LinksContainerStyled>
     </NavbarContainerStyled>
   )

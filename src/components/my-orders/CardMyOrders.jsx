@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { formatPrice } from '../../utils';
-import OrderStatus from '../UI/order-status/OrderStatus';
+// import OrderStatus from '../UI/order-status/OrderStatus';
 
 import {
   IdStyled,
@@ -20,7 +20,7 @@ const CardMyOrders = ({ createdAt, status, total, _id }) => {
         <IdStyled>Fecha {createdAt.slice(0, 10)}</IdStyled>
         <PriceStyled>{formatPrice(total)}</PriceStyled>
       </TextContainerStyled>
-      <OrderStatus status={status} />
+      {/* <OrderStatus status={status} /> */}
     </PedidoContainerStyled>
   );
 };

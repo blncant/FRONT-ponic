@@ -13,6 +13,7 @@ export const Categoria = ({title, category}) => {
     <CardCategoria
         selected={category === selectedCategory}
         onClick={() => dispatch(selectCategory(category))}
+        whileTap={{ scale: 0.95 }}
     >
         <h3>{title}</h3>
     </CardCategoria>

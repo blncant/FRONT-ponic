@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-
+import { AnimatePresence } from 'framer-motion';
 
 
 import {FaWindowClose} from 'react-icons/fa'
@@ -20,6 +20,7 @@ import {
   SubtotalStyled,
   TitleStyled,
   TotalStyled,
+  CloseButtonContainerStyled,
 } from './ModalCartStyles';
 
 import { ModalOverlayStyled } from '../NavbarStyles';
@@ -47,10 +48,10 @@ const ModalCart = () => {
       {!hiddenCart && (
         <ModalOverlayStyled
           onClick={() => dispatch(toggleHiddenCart())}
-          ishidden={hiddenCart}
+          ishidden={hiddenCart ? "true" : "false"}
         />
       )}
-      
+      <AnimatePresence>
         {!hiddenCart && (
           <ContainerStyled
             initial={{ translateX: 600 }}
@@ -59,13 +60,15 @@ const ModalCart = () => {
             transition={{ type: 'spring', damping: 27 }}
             key='cart-modal'
           >
-          
+          <CloseButtonContainerStyled>
               <CloseButtonStyled
                 className='close__modal '
+                whileTap={{ scale: 0.95 }}
                 onClick={() => dispatch(toggleHiddenCart())}
               >
-                <FaWindowClose size='30px' />
+                <FaWindowClose size='24px' />
               </CloseButtonStyled>
+              </CloseButtonContainerStyled>
             
 
             <MainContainerStyled>
@@ -102,14 +105,19 @@ const ModalCart = () => {
                 </PriceStyled>
               </TotalStyled>
               <ButtonContainerStyled>
-                <Submit onClick={() => navigate('/checkout')}>
-                  Iniciar pedido
-                </Submit>
+              <Submit
+    onClick={() => {
+      dispatch(toggleHiddenCart()); // Cierra el carrito antes de navegar al checkout
+      navigate('/checkout'); // Navega al checkout
+    }}
+  >
+    Iniciar pedido
+  </Submit>
               </ButtonContainerStyled>
             </PriceContainerStyled>
           </ContainerStyled>
         )}
-      
+    </AnimatePresence>  
     </>
   );
 };

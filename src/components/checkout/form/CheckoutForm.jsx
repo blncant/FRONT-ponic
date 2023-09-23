@@ -33,6 +33,7 @@ const CheckoutForm = ({ cartItems, shippingCost, price }) => {
             total: price + shippingCost,
             shippingDetails: { ...values },
           };
+        
 
           try {
             await createOrder(orderData, dispatch, currentUser);
