@@ -15,7 +15,7 @@ export const getOrders = async (dispatch, currentUser) => {
 			dispatch(fetchOrdersSuccess(orders.data.data));
 		}
 	} catch (error) {
-		console.error({ error });
+		// console.error({ error });
 		dispatch(fetchOrdersFail("Oops, algo salío mal. No hay ordenes sin usuario."));
 	}
 };

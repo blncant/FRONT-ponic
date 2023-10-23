@@ -9,7 +9,7 @@ import {
 } from './OrderDetailCardStyles';
 
 const OrderDetailCard = ({img, cardImg, title, quantity, price}) => {
-    console.log('Ruta de la imagen:', img);
+    // console.log('Ruta de la imagen:', img);
 
 return (
     <ProductStyled>

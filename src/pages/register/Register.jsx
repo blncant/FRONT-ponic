@@ -36,8 +36,8 @@ const Register = () => {
     actions.resetForm();
     
     if (user) {
-        console.log("User:", user);
-        console.log("User Verified:", user.usuario.verified);
+       /*  console.log("User:", user);
+        console.log("User Verified:", user.usuario.verified); */
       dispatch(setCurrentUser({
         ...user.usuario,
         token: user.token,
